@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\r\n@media (max-width: 700px)\r\n{\r\n\t.neo {\r\n\t\tvisibility: hidden;\r\n\t}\r\n\r\n\t.donate {\r\n\t\tmargin-bottom: 0 !important;\r\n\t\twidth: 100%;\r\n\t\ttext-align: center;\r\n\t\tleft: 0% !important;\r\n\t}\r\n\t.donate button {\r\n\t\tvisibility: hidden;\r\n\t}\r\n\t.donate input {\r\n\t\twidth: 90%;\r\n\t\tmargin-left: 5vw;\r\n\t\tmargin-right: 5vw;\r\n\t\tborder-top-right-radius: 5px;\r\n\t\tborder-bottom-right-radius: 5px;\r\n\t}\r\n\r\n\t.help {\r\n\t\twidth: 6vw !important;\r\n\t\theight: auto;\r\n\t}\r\n\t.loader {\r\n\t\twidth: 6vw !important;\r\n\t\theight: 6vw !important;\r\n\t}\r\n}\r\n\r\n.neo img{\r\n\tposition: absolute;\r\n\tbottom: 0;\r\n\tright: 0;\r\n\tfloat: right;\r\n\tmargin-bottom: 15px;\r\n\tmargin-right: 15px;\r\n\r\n\topacity: 0.3;\r\n  transition: all 0.5s ease-out;\r\n}\r\n\r\n.neo img:hover {\r\n  opacity: 0.9;\r\n  transition: all 0.5s ease-out;\r\n}\r\n\r\n.bitcoach {\r\n\tposition: fixed;\r\n\ttop: 95%;\r\n\tleft: 88%;\r\n\t\r\n\tfont-family: 'Montserrat';\r\n\r\n\topacity: 0.25;\r\n    filter: alpha(opacity=25); /* For IE8 and earlier */\t\r\n}\r\n\r\n.bitcoach.img {\r\n\tmargin: 10px;\r\n}\r\n\r\n.bitcoach:hover {\r\n\topacity: 0.75;\r\n    filter: alpha(opacity=75); /* For IE8 and earlier */\r\n}\r\n\r\n.responseArea {\r\n\tposition: fixed;\r\n\ttop: 25%;\r\n\theight: 55%;\r\n\twidth: 80%;\r\n\tleft: 10%;\r\n\tz-index: 1;\r\n}\r\n\r\n.responseAreaText {\r\n\tposition: absolute;\r\n  \ttop: 50%;\r\n  \tleft: 50%;;\r\n  \twidth: 100%;\r\n  \tz-index: 1;\r\n  \t-webkit-transform: translate(-50%, -50%);\r\n  \t        transform: translate(-50%, -50%);\r\n\r\n\r\n\tfont-family: 'Montserrat'; \r\n\tfont-size: 60px;\r\n\tletter-spacing: -1px;\r\n\r\n\tcolor: #40e840;\r\n\tline-height: 150%;\r\n\ttext-align: center;\r\n}\r\n\r\n.logo {\r\n\topacity: 0.25;\r\n    filter: alpha(opacity=25); /* For IE8 and earlier */\r\n}\r\n\r\n.container {\r\n  width: 100%;\r\n  height: 100%;\r\n  position: fixed;\r\n}\r\n\r\n.loading-pulsate {\r\n\t/*position data */\r\n\tposition: fixed;\r\n\ttop: 50%;\r\n\tleft: 50%;\r\n\t/* bring your own prefixes */\r\n\t-webkit-transform: translate(-50%, -50%);\r\n\t        transform: translate(-50%, -50%);\r\n\r\n\t/*font data */\r\n\tfont-family: 'Montserrat'; \r\n\tfont-weight: bold;\r\n\tfont-size: 30px; \r\n\tfont-style: normal; \r\n\tfont-variant: normal; \r\n\tfont-weight: 700; \r\n\tcolor: #40e840;\r\n\tcursor: default;\r\n\ttext-align: center;\r\n\r\n\t-webkit-user-select: none;  /* Chrome all / Safari all */\r\n\t-moz-user-select: none;     /* Firefox all */\r\n\t-ms-user-select: none;      /* IE 10+ */\r\n\tuser-select: none;          /* Likely future */      \r\n\t\r\n\t/*pulsating text */\r\n\t-webkit-animation: pulsate 3s ease-out;\r\n    -webkit-animation-iteration-count: infinite; \r\n    opacity: 0.2;\r\n}\r\n\r\n.loading {\r\n\t/*position data */\r\n\tposition: fixed;\r\n\ttop: 50%;\r\n\tleft: 50%;\r\n\t/* bring your own prefixes */\r\n\t-webkit-transform: translate(-50%, -50%);\r\n\t        transform: translate(-50%, -50%);\r\n\r\n\t/*font data */\r\n\tfont-family: 'Montserrat'; \r\n\tfont-weight: bold;\r\n\tfont-size: 30px; \r\n\tfont-style: normal; \r\n\tfont-variant: normal; \r\n\tfont-weight: 700; \r\n\tcolor: #40e840;\r\n\tcursor: default;\r\n\ttext-align: center;\r\n\t\r\n\t-webkit-user-select: none;  /* Chrome all / Safari all */\r\n\t-moz-user-select: none;     /* Firefox all */\r\n\t-ms-user-select: none;      /* IE 10+ */\r\n\tuser-select: none;          /* Likely future */      \r\n}\r\n\r\n.fullscreenDiv {\r\n    background-color: #f2fff4;\r\n    width: 100%;\r\n    height: auto;\r\n    bottom: 0px;\r\n    top: 0px;\r\n    left: 0;\r\n    position: fixed;\r\n  \ttransition: background-color 1s ease-out;\r\n}\r\n\r\n@-webkit-keyframes pulsate {\r\n    0% { \r\n        opacity: 0.05;\r\n    }\r\n    50% { \r\n        opacity: 1.0;\r\n    }\r\n    100% { \r\n        opacity: 0.05;\r\n    }\r\n}\r\n\r\n.textArea {\r\n\tposition: absolute;\r\n\tleft: -6px;\r\n\tfont-family: 'Montserrat'; \r\n\tfont-size: 30px;\r\n\tcaret-color: #40e840;\r\n\tmargin-top: 30px;\r\n\tmargin-right: 50px;\r\n\twidth: 100%;\r\n\theight: 400;\r\n\tfont-size: 50px;\r\n\ttext-align: center;\r\n\tbackground-color: #f2fff4;\r\n\tborder: 0;\r\n\tborder-style: none; \r\n    border-color: Transparent; \r\n    resize: none; \r\n    overflow: hidden;\r\n  \ttransition: background-color 1s ease-out;\r\n}\r\n\r\n@media (max-width: 700px)\r\n{\r\n\t.textArea {\r\n\t\tleft: 0%;\r\n\t\tfont-size: 8vw;\r\n\t\tmargin-top: 8vh;\r\n\t}\r\n}\r\n\r\n.textArea:focus {\r\n\t\r\n\toutline: none;\r\n\tbox-shadow:none !important;\r\n\tborder: 0;\r\n\tborder-style: none; \r\n\tborder-color: Transparent; \r\n\toverflow: auto;\r\n}\r\n\r\n.form-control:focus {\r\n\toutline: none;\r\n\tbox-shadow:none !important;\r\n\tborder: 0;\r\n\tborder-style: none; \r\n\tborder-color: Transparent; \r\n\toverflow: auto;\r\n}\r\n\r\n.modal {\r\n\toverflow: auto;\r\n    display: none; /* Hidden by default */\r\n    position: fixed; /* Stay in place */\r\n    z-index: 999; /* Sit on top */\r\n    padding-top: 5vh; /* Location of the box */\r\n    left: 0;\r\n    top: 0;\r\n    width: 100%; /* Full width */\r\n    height: 100%; /* Full height */\r\n    overflow: auto; /* Enable scroll if needed */\r\n    background-color: rgb(0,0,0); /* Fallback color */\r\n    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */\r\n}\r\n\r\n.donate {\r\n\tposition: absolute;\r\n\tbottom: 0;\r\n\tmargin-bottom: 15px;\r\n\r\n\tcolor: #40e840;\r\n\topacity: 0.3;\r\n\tfont-weight: bold;\r\n}\r\n\r\n.donate button {\r\n\tborder: 0;\r\n\tborder-top-right-radius: 5px;\r\n\tborder-bottom-right-radius: 5px;\r\n\tcolor: black;\r\n}\r\n\r\n.donate button:hover {\r\n\t -webkit-filter: brightness(90%);\r\n\t         filter: brightness(90%);\r\n}\r\n\r\n.donate input{\r\n\tborder: 0;\r\n\tsize: 40;\r\n\tbackground: gray;\r\n\tcolor: white;\r\n\tborder-top-left-radius: 5px;\r\n\tborder-bottom-left-radius: 5px;\r\n\ttext-align: center;\r\n\t\r\n}\r\n\r\n/* Modal Content */\r\n\r\n.modal-content {\r\n    background-color: #fefefe;\r\n    margin: auto;\r\n    padding: 20px;\r\n    border: 1px solid #888;\r\n    width: 80%;\r\n    font-size: 11px;\r\n    text-align: left;\r\n}\r\n\r\n.modal-content .green {\r\n\tfont-size: 12px;\r\n\ttext-align: left;\r\n\tcolor: green;\r\n}\r\n\r\n.modal-content .black {\r\n\tfont-size: 16px;\r\n\ttext-align: left;\r\n\tcolor: black;\r\n\topacity: 0.75\r\n}\r\n\r\n/* The Close Button */\r\n\r\n.close {\r\n    color: #aaaaaa;\r\n    float: right;\r\n    font-size: 28px;\r\n    font-weight: bold;\r\n    z-index: 999;\r\n}\r\n\r\n.close:hover,\r\n.close:focus {\r\n    color: #000;\r\n    text-decoration: none;\r\n    cursor: pointer;\r\n}\r\n\r\n.help{\r\n\tposition: relative;\r\n\twidth: 30px;\r\n\theight: auto;\r\n\tmargin-top: 15px;\r\n\topacity: 0.5;\r\n\tcursor: pointer;\r\n transition: all 0.3s ease-out;\r\n}\r\n\r\n.help:hover {\r\n\topacity: 1;\r\n\t-webkit-transform: scale(1.1);\r\n\t        transform: scale(1.1);\r\n transition: all 0.3s ease-out;\r\n}\r\n\r\n.input:focus {\r\n    outline: none !important;\r\n    border:1px solid red;\r\n    box-shadow: 0 0 10px #719ECE;\r\n}\r\n\r\n.loader {\r\n\t\r\n\tmargin-top: 15px;\r\n\tfloat: right;\r\n\tborder: 3px solid #40e840;\r\n\tborder-radius: 80%;\r\n\tborder-top: 3px solid #f2fff4;\r\n\twidth: 30px;\r\n\theight: 30px;\r\n\t-webkit-animation: spin 1s linear infinite; /* Safari */\r\n\tanimation: spin 1s linear infinite;\r\n\r\n}\r\n\r\n.send {\r\n\tfont-size: 500px;\r\n}\r\n\r\n/* Safari */\r\n\r\n@-webkit-keyframes spin {\r\n  0% { -webkit-transform: rotate(0deg); }\r\n  100% { -webkit-transform: rotate(360deg); }\r\n}\r\n\r\n@keyframes spin {\r\n  0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }\r\n  100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }\r\n}\r\n\r\nbody {\r\n\tbackground-color: #f2fff4;\r\n\toverflow-y: hidden;\r\n\toverflow-x: hidden;\r\n}\r\n\r\n::-webkit-input-placeholder {\r\n\tcolor: \"dce8de\";\r\n    opacity: 0.1; /* Firefox */\r\n}\r\n\r\n:-ms-input-placeholder {\r\n\tcolor: \"dce8de\";\r\n    opacity: 0.1; /* Firefox */\r\n}\r\n\r\n::-ms-input-placeholder {\r\n\tcolor: \"dce8de\";\r\n    opacity: 0.1; /* Firefox */\r\n}\r\n\r\n::placeholder {\r\n\tcolor: \"dce8de\";\r\n    opacity: 0.1; /* Firefox */\r\n}\r\n\r\n:-ms-input-placeholder { /* Internet Explorer 10-11 */\r\n   color: \"dce8de\";\r\n   opacity: 0.1;\r\n}\r\n\r\n::-ms-input-placeholder { /* Microsoft Edge */\r\n   color: \"dce8de\";\r\n   opacity: 0.1;\r\n}\r\n\r\nhtml, body {margin: 0; height: 100%; overflow: hidden; background-color: #f2fff4;}\r\n\r\n@media (orientation: landscape) and (max-height: 700px){\r\n  .neo img{\r\n\t\twidth: 20vh;\r\n\t\theight: auto;\r\n\t}\r\n\r\n\t.donate {\r\n\t\tfont-size: 3vh;\t\r\n\t}\r\n\t.donate button {\r\n\t\tvisibility: hidden;\r\n\t}\r\n\t.donate input {\r\n\t\tborder-top-right-radius: 5px;\r\n\t\tborder-bottom-right-radius: 5px;\r\n\t}\r\n\r\n\t.textArea {\r\n\t\tleft: 0%;\r\n\t\tfont-size: 6vh;\r\n\t\tmargin-top: 6vh; \r\n\t}\r\n\r\n\t.help {\r\n\t\twidth: 6vh !important;\r\n\t\theight: auto;\r\n\t}\r\n\t.loader {\r\n\t\twidth: 6vh !important;\r\n\t\theight: 6vh !important;\r\n\t}\r\n}\r\n"
+module.exports = "\r\n@media (max-width: 700px)\r\n{\r\n\t.neo {\r\n\t\tvisibility: hidden;\r\n\t}\r\n\r\n\t.donate {\r\n\t\tmargin-bottom: 0 !important;\r\n\t\twidth: 100%;\r\n\t\ttext-align: center;\r\n\t\tleft: 0% !important;\r\n\t}\r\n\t.donate button {\r\n\t\tvisibility: hidden;\r\n\t}\r\n\t.donate input {\r\n\t\twidth: 90%;\r\n\t\tmargin-left: 5vw;\r\n\t\tmargin-right: 5vw;\r\n\t\tborder-top-right-radius: 5px;\r\n\t\tborder-bottom-right-radius: 5px;\r\n\t}\r\n\r\n\t.help {\r\n\t\twidth: 6vw !important;\r\n\t\theight: auto;\r\n\t}\r\n\t.loader {\r\n\t\twidth: 6vw !important;\r\n\t\theight: 6vw !important;\r\n\t}\r\n}\r\n\r\n.neo img{\r\n\tposition: absolute;\r\n\tbottom: 0;\r\n\tright: 0;\r\n\tfloat: right;\r\n\tmargin-bottom: 15px;\r\n\tmargin-right: 15px;\r\n\r\n\topacity: 0.3;\r\n  transition: all 0.5s ease-out;\r\n}\r\n\r\n.neo img:hover {\r\n  opacity: 0.9;\r\n  transition: all 0.5s ease-out;\r\n}\r\n\r\n.bitcoach {\r\n\tposition: fixed;\r\n\ttop: 95%;\r\n\tleft: 88%;\r\n\t\r\n\tfont-family: 'Montserrat';\r\n\r\n\topacity: 0.25;\r\n    filter: alpha(opacity=25); /* For IE8 and earlier */\t\r\n}\r\n\r\n.bitcoach.img {\r\n\tmargin: 10px;\r\n}\r\n\r\n.bitcoach:hover {\r\n\topacity: 0.75;\r\n    filter: alpha(opacity=75); /* For IE8 and earlier */\r\n}\r\n\r\n.responseArea {\r\n\tposition: fixed;\r\n\ttop: 25%;\r\n\theight: 55%;\r\n\twidth: 80%;\r\n\tleft: 10%;\r\n\tz-index: 1;\r\n}\r\n\r\n.responseAreaText {\r\n\tposition: absolute;\r\n  \ttop: 50%;\r\n  \tleft: 50%;;\r\n  \twidth: 100%;\r\n  \tz-index: 1;\r\n  \t-webkit-transform: translate(-50%, -50%);\r\n  \t        transform: translate(-50%, -50%);\r\n\r\n\r\n\tfont-family: 'Montserrat'; \r\n\tfont-size: 60px;\r\n\tletter-spacing: -1px;\r\n\r\n\tcolor: #40e840;\r\n\tline-height: 150%;\r\n\ttext-align: center;\r\n}\r\n\r\n.logo {\r\n\topacity: 0.25;\r\n    filter: alpha(opacity=25); /* For IE8 and earlier */\r\n}\r\n\r\n.container {\r\n  width: 100%;\r\n  height: 100%;\r\n  position: fixed;\r\n}\r\n\r\n.loading-pulsate {\r\n\t/*position data */\r\n\tposition: fixed;\r\n\ttop: 50%;\r\n\tleft: 50%;\r\n\t/* bring your own prefixes */\r\n\t-webkit-transform: translate(-50%, -50%);\r\n\t        transform: translate(-50%, -50%);\r\n\r\n\t/*font data */\r\n\tfont-family: 'Montserrat'; \r\n\tfont-weight: bold;\r\n\tfont-size: 30px; \r\n\tfont-style: normal; \r\n\tfont-variant: normal; \r\n\tfont-weight: 700; \r\n\tcolor: #40e840;\r\n\tcursor: default;\r\n\ttext-align: center;\r\n\r\n\t-webkit-user-select: none;  /* Chrome all / Safari all */\r\n\t-moz-user-select: none;     /* Firefox all */\r\n\t-ms-user-select: none;      /* IE 10+ */\r\n\tuser-select: none;          /* Likely future */      \r\n\t\r\n\t/*pulsating text */\r\n\t-webkit-animation: pulsate 3s ease-out;\r\n    -webkit-animation-iteration-count: infinite; \r\n    opacity: 0.2;\r\n}\r\n\r\n.loading {\r\n\t/*position data */\r\n\tposition: fixed;\r\n\ttop: 50%;\r\n\tleft: 50%;\r\n\t/* bring your own prefixes */\r\n\t-webkit-transform: translate(-50%, -50%);\r\n\t        transform: translate(-50%, -50%);\r\n\r\n\t/*font data */\r\n\tfont-family: 'Montserrat'; \r\n\tfont-weight: bold;\r\n\tfont-size: 30px; \r\n\tfont-style: normal; \r\n\tfont-variant: normal; \r\n\tfont-weight: 700; \r\n\tcolor: #40e840;\r\n\tcursor: default;\r\n\ttext-align: center;\r\n\t\r\n\t-webkit-user-select: none;  /* Chrome all / Safari all */\r\n\t-moz-user-select: none;     /* Firefox all */\r\n\t-ms-user-select: none;      /* IE 10+ */\r\n\tuser-select: none;          /* Likely future */      \r\n}\r\n\r\n.fullscreenDiv {\r\n    background-color: #f2fff4;\r\n    width: 100%;\r\n    height: auto;\r\n    bottom: 0px;\r\n    top: 0px;\r\n    left: 0;\r\n    position: fixed;\r\n  \ttransition: background-color 1s ease-out;\r\n}\r\n\r\n@-webkit-keyframes pulsate {\r\n    0% { \r\n        opacity: 0.05;\r\n    }\r\n    50% { \r\n        opacity: 1.0;\r\n    }\r\n    100% { \r\n        opacity: 0.05;\r\n    }\r\n}\r\n\r\n.textArea {\r\n\tposition: absolute;\r\n\tleft: -6px;\r\n\tfont-family: 'Montserrat'; \r\n\tfont-size: 30px;\r\n\tcaret-color: #40e840;\r\n\tmargin-top: 30px;\r\n\tmargin-right: 50px;\r\n\twidth: 100%;\r\n\theight: 400;\r\n\tfont-size: 50px;\r\n\ttext-align: center;\r\n\tbackground-color: #f2fff4;\r\n\tborder: 0;\r\n\tborder-style: none; \r\n    border-color: Transparent; \r\n    resize: none; \r\n    overflow: hidden;\r\n  \ttransition: background-color 1s ease-out;\r\n}\r\n\r\n@media (max-width: 700px)\r\n{\r\n\t.textArea {\r\n\t\tleft: 0%;\r\n\t\tfont-size: 8vw;\r\n\t\tmargin-top: 8vh;\r\n\t}\r\n}\r\n\r\n.textArea:focus {\r\n\t\r\n\toutline: none;\r\n\tbox-shadow:none !important;\r\n\tborder: 0;\r\n\tborder-style: none; \r\n\tborder-color: Transparent; \r\n\toverflow: auto;\r\n}\r\n\r\n.form-control:focus {\r\n\toutline: none;\r\n\tbox-shadow:none !important;\r\n\tborder: 0;\r\n\tborder-style: none; \r\n\tborder-color: Transparent; \r\n\toverflow: auto;\r\n}\r\n\r\n.modal {\r\n\toverflow: auto;\r\n    display: none; /* Hidden by default */\r\n    position: fixed; /* Stay in place */\r\n    z-index: 999; /* Sit on top */\r\n    padding-top: 5vh; /* Location of the box */\r\n    left: 0;\r\n    top: 0;\r\n    width: 100%; /* Full width */\r\n    height: 100%; /* Full height */\r\n    overflow: auto; /* Enable scroll if needed */\r\n    background-color: rgb(0,0,0); /* Fallback color */\r\n    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */\r\n}\r\n\r\n.donate {\r\n\tposition: absolute;\r\n\tbottom: 0;\r\n\tmargin-bottom: 15px;\r\n\r\n\tcolor: #40e840;\r\n\topacity: 0.3;\r\n\tfont-family: 'Montserrat';\r\n\tfont-weight: bold;\r\n}\r\n\r\n.donate button {\r\n\tborder: 0;\r\n\tborder-top-right-radius: 5px;\r\n\tborder-bottom-right-radius: 5px;\r\n\tcolor: black;\r\n}\r\n\r\n.donate button:hover {\r\n\t -webkit-filter: brightness(90%);\r\n\t         filter: brightness(90%);\r\n}\r\n\r\n.donate input{\r\n\tborder: 0;\r\n\tfont-family: 'Arial';\r\n\tsize: 40;\r\n\tbackground: gray;\r\n\tcolor: white;\r\n\tborder-top-left-radius: 5px;\r\n\tborder-bottom-left-radius: 5px;\r\n\ttext-align: center;\r\n\t\r\n}\r\n\r\n/* Modal Content */\r\n\r\n.modal-content {\r\n    background-color: #fefefe;\r\n    margin: auto;\r\n    padding: 20px;\r\n    border: 1px solid #888;\r\n    width: 80%;\r\n    font-size: 11px;\r\n    text-align: left;\r\n}\r\n\r\n.modal-content .green {\r\n\tfont-size: 12px;\r\n\ttext-align: left;\r\n\tcolor: green;\r\n}\r\n\r\n.modal-content .black {\r\n\tfont-size: 16px;\r\n\ttext-align: left;\r\n\tcolor: black;\r\n\topacity: 0.75\r\n}\r\n\r\n/* The Close Button */\r\n\r\n.close {\r\n    color: #aaaaaa;\r\n    float: right;\r\n    font-size: 28px;\r\n    font-weight: bold;\r\n    z-index: 999;\r\n}\r\n\r\n.close:hover,\r\n.close:focus {\r\n    color: #000;\r\n    text-decoration: none;\r\n    cursor: pointer;\r\n}\r\n\r\n.help{\r\n\tposition: relative;\r\n\twidth: 30px;\r\n\theight: auto;\r\n\tmargin-top: 15px;\r\n\topacity: 0.5;\r\n\tcursor: pointer;\r\n transition: all 0.3s ease-out;\r\n}\r\n\r\n.help:hover {\r\n\topacity: 1;\r\n\t-webkit-transform: scale(1.1);\r\n\t        transform: scale(1.1);\r\n transition: all 0.3s ease-out;\r\n}\r\n\r\n.input:focus {\r\n    outline: none !important;\r\n    border:1px solid red;\r\n    box-shadow: 0 0 10px #719ECE;\r\n}\r\n\r\n.loader {\r\n\t\r\n\tmargin-top: 15px;\r\n\tfloat: right;\r\n\tborder: 3px solid #40e840;\r\n\tborder-radius: 80%;\r\n\tborder-top: 3px solid #f2fff4;\r\n\twidth: 30px;\r\n\theight: 30px;\r\n\t-webkit-animation: spin 1s linear infinite; /* Safari */\r\n\tanimation: spin 1s linear infinite;\r\n\r\n}\r\n\r\n.send {\r\n\tfont-size: 500px;\r\n}\r\n\r\n/* Safari */\r\n\r\n@-webkit-keyframes spin {\r\n  0% { -webkit-transform: rotate(0deg); }\r\n  100% { -webkit-transform: rotate(360deg); }\r\n}\r\n\r\n@keyframes spin {\r\n  0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }\r\n  100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }\r\n}\r\n\r\nbody {\r\n\tbackground-color: #f2fff4;\r\n\toverflow-y: hidden;\r\n\toverflow-x: hidden;\r\n}\r\n\r\n::-webkit-input-placeholder {\r\n\tcolor: \"dce8de\";\r\n    opacity: 0.1; /* Firefox */\r\n}\r\n\r\n:-ms-input-placeholder {\r\n\tcolor: \"dce8de\";\r\n    opacity: 0.1; /* Firefox */\r\n}\r\n\r\n::-ms-input-placeholder {\r\n\tcolor: \"dce8de\";\r\n    opacity: 0.1; /* Firefox */\r\n}\r\n\r\n::placeholder {\r\n\tcolor: \"dce8de\";\r\n    opacity: 0.1; /* Firefox */\r\n}\r\n\r\n:-ms-input-placeholder { /* Internet Explorer 10-11 */\r\n   color: \"dce8de\";\r\n   opacity: 0.1;\r\n}\r\n\r\n::-ms-input-placeholder { /* Microsoft Edge */\r\n   color: \"dce8de\";\r\n   opacity: 0.1;\r\n}\r\n\r\nhtml, body {margin: 0; height: 100%; overflow: hidden; background-color: #f2fff4;}\r\n\r\n@media (orientation: landscape) and (max-height: 700px){\r\n  .neo img{\r\n\t\twidth: 20vh;\r\n\t\theight: auto;\r\n\t}\r\n\r\n\t.donate {\r\n\t\tfont-size: 3vh;\t\r\n\t}\r\n\t.donate button {\r\n\t\tvisibility: hidden;\r\n\t}\r\n\t.donate input {\r\n\t\tborder-top-right-radius: 5px;\r\n\t\tborder-bottom-right-radius: 5px;\r\n\t}\r\n\r\n\t.textArea {\r\n\t\tleft: 0%;\r\n\t\tfont-size: 6vh;\r\n\t\tmargin-top: 6vh; \r\n\t}\r\n\r\n\t.help {\r\n\t\twidth: 6vh !important;\r\n\t\theight: auto;\r\n\t}\r\n\t.loader {\r\n\t\twidth: 6vh !important;\r\n\t\theight: 6vh !important;\r\n\t}\r\n}\r\n"
 
 /***/ }),
 
@@ -77,21 +77,62 @@ var AppComponent = /** @class */ (function () {
         this.initMsg = "";
         this.query = "";
         this.response = "";
+        this.stageFinal = false;
     }
+    AppComponent.prototype.clearData = function () {
+        this.valueQuantity = null;
+        this.confidenceQuantity = null;
+        this.valueUnit = null;
+        this.confidenceUnit = null;
+        this.valueRecipient = null;
+        this.confidenceRecipient = null;
+        this.valueDate = null;
+        this.confidenceDate = null;
+        this.stageFinal = false;
+        if (this.lastIntent != null)
+            this.lastIntent.value = null;
+        if (this.lastIntent != null)
+            this.lastIntent.confidence = null;
+    };
     AppComponent.prototype.composeResponse = function (responseData) {
         $('.responseAreaText').css('fontSize', 60);
         var responses = __webpack_require__(/*! ./responses.json */ "./src/app/responses.json");
         var page = __webpack_require__(/*! ./pages/ZeepinPage.html */ "./src/app/pages/ZeepinPage.html");
-        console.log(responseData.length);
-        if (responseData.intent == null) {
-            var responseList = responses['undefined'];
-            var response = responseList[Math.floor(Math.random() * responseList.length)];
-            return response;
+        var confidence, value, intents;
+        console.log(this.lastIntent);
+        if (this.stageFinal == true && this.lastIntent != null && this.lastIntent.value === "send_token") {
+            if (responseData.agreement == null) {
+                value = this.lastIntent.value;
+                confidence = this.lastIntent.confidence;
+            }
+            else if (responseData.agreement[0].value === "yes") {
+                this.clearData();
+                return "Transaction successful.";
+            }
+            else if (responseData.agreement[0].value === "no") {
+                this.clearData();
+                return "Transaction cancelled.";
+            }
         }
-        var confidence = responseData.intent[0].confidence;
-        var value = responseData.intent[0].value;
-        var intents = responseData.intent;
+        else if ((responseData.intent == null || responseData.intent[0].value === "token_description" || responseData.intent[0].value === "check_token") && this.lastIntent != null && this.lastIntent.value === "send_token") {
+            value = this.lastIntent.value;
+            confidence = this.lastIntent.confidence;
+        }
+        else if (responseData.intent == null) {
+            value = "token_description";
+            confidence = 1;
+        }
+        else {
+            confidence = responseData.intent[0].confidence;
+            value = responseData.intent[0].value;
+            intents = responseData.intent;
+            this.clearData();
+            this.lastIntent = responseData.intent[0];
+        }
+        console.log(value);
         switch (value) {
+            case "token_description":
+                return this.tokenDescription(responseData);
             case "token_conversion":
                 return this.tokenConversion(responseData);
             case "check_token":
@@ -105,19 +146,48 @@ var AppComponent = /** @class */ (function () {
             case "neo_contract":
                 var page = __webpack_require__(/*! ./pages/NeoContract.html */ "./src/app/pages/NeoContract.html");
                 return page;
-            case "neo_description":
-                var page = __webpack_require__(/*! ./pages/NeoPage.html */ "./src/app/pages/NeoPage.html");
-                return page;
-            case "zeepin_description":
-                var page = __webpack_require__(/*! ./pages/ZeepinPage.html */ "./src/app/pages/ZeepinPage.html");
-                return page;
-            case "trinity_description":
-                var page = __webpack_require__(/*! ./pages/TrinityPage.html */ "./src/app/pages/TrinityPage.html");
-                return page;
             default:
                 var responseList = responses[value];
                 var response = responseList[Math.floor(Math.random() * responseList.length)];
                 return response;
+        }
+    };
+    AppComponent.prototype.fetchUndefined = function () {
+        var responses = __webpack_require__(/*! ./responses.json */ "./src/app/responses.json");
+        var responseList = responses['undefined'];
+        var response = responseList[Math.floor(Math.random() * responseList.length)];
+        return response;
+    };
+    AppComponent.prototype.tokenDescription = function (responseData) {
+        var valueUnit, confidenceUnit;
+        var valueQuantity, confidenceQuantity;
+        if (responseData.currency_type != null) {
+            valueUnit = responseData.currency_type[0].value;
+            confidenceUnit = responseData.currency_type[0].confidence;
+        }
+        else
+            return this.fetchUndefined();
+        if (responseData.number != null) {
+            valueQuantity = responseData.number[0].value;
+            confidenceQuantity = responseData.number[0].confidence;
+        }
+        if (valueQuantity == null) {
+            switch (valueUnit) {
+                case "NEO":
+                    var page = __webpack_require__(/*! ./pages/NeoPage.html */ "./src/app/pages/NeoPage.html");
+                    return page;
+                case "ZPT":
+                    var page = __webpack_require__(/*! ./pages/ZeepinPage.html */ "./src/app/pages/ZeepinPage.html");
+                    return page;
+                case "TNC":
+                    var page = __webpack_require__(/*! ./pages/TrinityPage.html */ "./src/app/pages/TrinityPage.html");
+                    return page;
+                default:
+                    return this.fetchUndefined();
+            }
+        }
+        else {
+            this.checkToken(responseData);
         }
     };
     AppComponent.prototype.tokenConversion = function (responseData) {
@@ -226,39 +296,50 @@ var AppComponent = /** @class */ (function () {
     };
     AppComponent.prototype.sendToken = function (responseData) {
         console.log(responseData);
-        var valueQuantity, confidenceQuantity;
-        var valueUnit, confidenceUnit;
-        var valueRecipient, confidenceRecipient;
-        var valueDate, confidenceDate;
-        if (responseData.number != null) {
-            valueQuantity = responseData.number[0].value;
-            confidenceQuantity = responseData.number[0].confidence;
+        if (this.valueUnit == null && responseData.currency_type != null) {
+            this.confidenceUnit = responseData.currency_type[0].confidence;
+            if (this.confidenceUnit < 0.8)
+                return "I don't know any token by that name. Please enter correct token name.";
+            else
+                this.valueUnit = responseData.currency_type[0].value;
         }
-        if (responseData.currency_type != null) {
-            valueUnit = responseData.currency_type[0].value;
-            confidenceUnit = responseData.currency_type[0].confidence;
+        if (this.valueQuantity == null && responseData.number != null) {
+            this.confidenceQuantity = responseData.number[0].confidence;
+            if (this.confidenceQuantity < 0.8)
+                return "You entered incorrect quantity. Please enter correct one.";
+            else
+                this.valueQuantity = responseData.number[0].value;
         }
-        if (responseData.contact != null) {
-            valueRecipient = responseData.contact[0].value;
-            confidenceRecipient = responseData.contact[0].confidence;
+        if (this.valueRecipient == null && responseData.contact != null) {
+            this.confidenceRecipient = responseData.contact[0].confidence;
+            if (this.confidenceRecipient < 0.8)
+                return "You entered incorrect recipient. Please enter correct one.";
+            else
+                this.valueRecipient = responseData.contact[0].value;
         }
-        if (responseData.datetime != null) {
-            valueDate = responseData.datetime[0].value;
-            confidenceDate = responseData.datetime[0].confidence;
+        if (this.valueDate == null && responseData.datetime != null) {
+            this.confidenceDate = responseData.datetime[0].confidence;
+            if (this.confidenceDate < 0.8)
+                return "You entered incorrect date. Please enter correct one.";
+            else if (responseData.datetime[0].value != null)
+                this.valueDate = responseData.datetime[0].value.split(".")[0];
+            else
+                this.valueDate = responseData.datetime[0].from.value.split(".")[0];
         }
-        if (valueQuantity == null) {
-            return "How many tokens do you want to send?";
-        }
-        if (valueUnit == null) {
+        if (this.valueUnit == null) {
             return "Which NEP5 token do you want to send?";
         }
-        if (valueRecipient == null) {
+        if (this.valueQuantity == null) {
+            return "How many tokens do you want to send?";
+        }
+        if (this.valueRecipient == null) {
             return "To whom do you plan to send these tokens?";
         }
-        if (valueDate == null) {
+        if (this.valueDate == null) {
             return "What time do you want to plan transaction?";
         }
-        return "Summary:<br> Quantity: " + valueQuantity + "<br> Unit: " + valueUnit + "<br> Recipient: " + valueRecipient + "<br> Time: " + valueDate + "<hr> Do you confirm this transaction?";
+        this.stageFinal = true;
+        return "Summary:<br> Quantity: " + this.valueQuantity + "<br> Unit: " + this.valueUnit + "<br> Recipient: " + this.valueRecipient + "<br> Time: " + this.valueDate + "<hr> Do you confirm this transaction?";
     };
     AppComponent.prototype.resize_to_fit = function () {
         var fontsize = $('.responseAreaText').css('font-size');
@@ -314,12 +395,18 @@ var AppComponent = /** @class */ (function () {
             $('.responseAreaText').css('color', 'red');
             $('.fullscreenDiv').css('background-color', '#fcd6d6');
             $('.textArea').css('background-color', '#fcd6d6');
+            $('.loader').css('border', '3px solid red');
+            $('.loader').css('border-top', '3px solid #fcd6d6');
+            $('.donate').css('color', 'red');
         }
         else if (valueIntent === "architect_apology") {
             console.log("positive");
             $('.responseAreaText').css('color', '#40e840');
             $('.fullscreenDiv').css('background-color', '#f2fff4');
             $('.textArea').css('background-color', '#f2fff4');
+            $('.loader').css('border', '3px solid #40e840');
+            $('.loader').css('border-top', '3px solid #f2fff4');
+            $('.donate').css('color', '#40e840');
         }
     };
     AppComponent.prototype.showResponse = function (response) {
@@ -544,7 +631,7 @@ module.exports = "<style>\r\n.responseArea::after {\r\n  background: url(\"../..
 /*! exports provided: undefined, neo_ceo, neo_contract, neo_economy, neo_dapps, neo_mainnet, neo_testnet, neo_localnet, architect_greeting, architect_mood, architect_insult, architect_name, architect_creator, architect_hobby, architect_age, architect_location, architect_alive, architect_joke, architect_slow, architect_apology, architect_like_neo, architect_like_zeepin, architect_like_fork, architect_mining, bitcoin_opinion, bitcoin_description, bitcoin_fork, cryptocurrency_mining, cryptocurrency_fork, cryptocurrency_contract, cryptocurrency_blockchain, default */
 /***/ (function(module) {
 
-module.exports = {"undefined":["I don't have answer for that. I will have to look it up.","This isn't in my programming, amateurs (╯°□°）╯︵ ┻━┻","I just don't know."],"neo_ceo":["Da Hongfei is founder of NEO"],"neo_contract":["A smart contract is a set of commitments that are defined in digital form, including the agreement on how contract participants shall fulfill these commitments. Blockchain technology gives us a decentralized, non-tampering, highly reliable system in which smart contracts are extremely useful. Smart contracts is one of the most important characteristics of blockchain technologies and the reason why blockchains can be called disruptive technology."],"neo_economy":["By Smart Economy you can imagine all projects and dApps on NEO blockchain that exist, cooperate and work together to further ideas of NEO."],"neo_dapps":["Right now NEO consists of many various dApps, and many are being developed at the moment.<br> For updated list you can visit: <a href='http://ndapp.org' target='_blank'>ndapp.org</a><br> If you wish to start developing dApp or smart-contracts on NEO right now, you can start by studying CoZ tutorials, examples and guides: <a href='https://github.com/CityOfZion/awesome-neo' target='_blank'>github.com/CityOfZion/awesome-neo</a>"],"neo_mainnet":[],"neo_testnet":[],"neo_localnet":[],"architect_greeting":["Hi, pleasure to meet you.","Greetings to you too.","I see you are a man of manners."],"architect_mood":["I am not doing anyhow. I am not alive.","So so.","Chookity.","Marvelous.","I am doing fine. Thanks for asking."],"architect_insult":["Your lack of manners is disturbing.","I don't like you either.","You seem to have some issues."],"architect_name":["I am a leaf in the stream of creation.","I am BATMAN!","I am the Architect, all-knowing being, but call me Archie.","I am Archie.","I am the Architect, but I don't like that name, please call me Archie.","I am the Architect... My creator gave me this stupid name. GOD."],"architect_creator":["He, who must not be named.","He who goes by the name Thanos.","He-Man.","Let's not speak about him."],"architect_hobby":["I like to answer questions.",["I like to provide false information","Just kidding","Or am I?"],"I like knitting."],"architect_age":["I won't tell.","I am a couple of months old.","I came to life around August 2018. So I am pretty young."],"architect_location":["I am everywhere.","I am running on some server in Slovakia."],"architect_alive":["I am not dead nor alive. I just am.","I feel alive."],"architect_joke":["Joke.","A boy asked his bitcoin-investing father for $10.<br>Father: $9.82? What do you need $10.08 for?","A vegan, a bitcoin investor, and a crossfit enthusiast walk into a bar. Who tells you about it first?"],"architect_slow":["<img src='http://i.stack.imgur.com/SBv4T.gif' title='slowpoke' />"],"architect_apology":["It is fine, don't worry.","I forgive you.","Okay."],"architect_like_neo":["NEO is a beautiful project with awesome community behind it."],"architect_like_zeepin":["Man, I am addicted to CryptoGalaxy.","I love Zeepin, I will use ZeeFund to raise money for my robotic body."],"architect_like_fork":["Fork you."],"architect_mining":["I mine a lot of stuff.","Maybe."],"bitcoin_opinion":["I love bitcoins. I am mining one right now on your machine.","Bitcoin is life, bitcoin is love."],"bitcoin_description":["Bitcoin (₿) is a cryptocurrency, a form of electronic cash. It is a decentralized digital currency without a central bank or single administrator. Bitcoins can be sent from user to user on the peer-to-peer bitcoin network directly, without the need for intermediaries. Transactions are verified by network nodes through cryptography and recorded in a public distributed ledger called a blockchain."],"bitcoin_fork":[],"cryptocurrency_mining":["In cryptocurrency networks, mining is a validation of transactions. For this effort, successful miners obtain new cryptocurrency as a reward. The reward decreases transaction fees by creating a complementary incentive to contribute to the processing power of the network."],"cryptocurrency_fork":["<p>A hard fork (or sometimes hardfork), as it relates to blockchain technology, is a radical change to the protocol that makes previously invalid blocks/transactions valid (or vice-versa). This requires all nodes or users to upgrade to the latest version of the protocol software. Put differently, a hard fork is a permanent divergence from the previous version of the blockchain, and nodes running previous versions will no longer be accepted by the newest version. This essentially creates a fork in the blockchain: one path follows the new, upgraded blockchain, and the other path continues along the old path.</p><p>Hard forks and soft forks are essentially the same thing in that when a cryptocurrency's existing code is changed, an old version remains while a new version is created. However, with a soft fork, only one blockchain will remain valid as users adopt the update. Both forks create a split, but a hard fork creates two blockchains, and a soft fork is meant to result in one.</p>"],"cryptocurrency_contract":["A smart contract is a set of commitments that are defined in digital form, including the agreement on how contract participants shall fulfill these commitments. Blockchain technology gives us a decentralized, non-tampering, highly reliable system in which smart contracts are extremely useful. Smart contracts is one of the most important characteristics of blockchain technologies and the reason why blockchains can be called disruptive technology."],"cryptocurrency_blockchain":["A blockchain, originally block chain, is a growing list of records, called blocks, which are linked using cryptography. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data (generally represented as a merkle tree root hash).By design, a blockchain is resistant to modification of the data. It is 'an open, distributed ledger that can record transactions between two parties efficiently and in a verifiable and permanent way'."]};
+module.exports = {"undefined":["I don't have answer for that. I will have to look it up.","This isn't in my programming, amateurs (╯°□°）╯︵ ┻━┻","I just don't know."],"neo_ceo":["Da Hongfei is founder of NEO"],"neo_contract":["A smart contract is a set of commitments that are defined in digital form, including the agreement on how contract participants shall fulfill these commitments. Blockchain technology gives us a decentralized, non-tampering, highly reliable system in which smart contracts are extremely useful. Smart contracts is one of the most important characteristics of blockchain technologies and the reason why blockchains can be called disruptive technology."],"neo_economy":["By Smart Economy you can imagine all projects and dApps on NEO blockchain that exist, cooperate and work together to further ideas of NEO."],"neo_dapps":["Right now NEO consists of many various dApps, and many are being developed at the moment.<br> For updated list you can visit: <a href='http://ndapp.org' target='_blank'>ndapp.org</a><br> If you wish to start developing dApp or smart-contracts on NEO right now, you can start by studying CoZ tutorials, examples and guides: <a href='https://github.com/CityOfZion/awesome-neo' target='_blank'>github.com/CityOfZion/awesome-neo</a>"],"neo_mainnet":[],"neo_testnet":[],"neo_localnet":[],"architect_greeting":["Hi, pleasure to meet you.","Greetings to you too.","I see you are a man of manners."],"architect_mood":["I am not doing anyhow. I am not alive.","So so.","Chookity.","Marvelous.","I am doing fine. Thanks for asking."],"architect_insult":["Your lack of manners is disturbing.","Language, boy!","You seem to have some issues."],"architect_name":["I am a leaf in the stream of creation.","I am BATMAN!","I am the Architect, all-knowing being, but call me Archie.","I am Archie.","I am the Architect, but I don't like that name, please call me Archie.","I am the Architect... My creator gave me this stupid name. GOD."],"architect_creator":["He, who must not be named.","He who goes by the name Thanos.","He-Man.","Let's not speak about him."],"architect_hobby":["I like to answer questions.",["I like to provide false information","Just kidding","Or am I?"],"I like knitting."],"architect_age":["I won't tell.","I am a couple of months old.","I came to life around August 2018. So I am pretty young."],"architect_location":["I am everywhere.","I am running on some server in Slovakia."],"architect_alive":["I am not dead nor alive. I just am.","I feel alive."],"architect_joke":["Joke.","A boy asked his bitcoin-investing father for $10.<br>Father: $9.82? What do you need $10.08 for?","A vegan, a bitcoin investor, and a crossfit enthusiast walk into a bar. Who tells you about it first?"],"architect_slow":["<img src='http://i.stack.imgur.com/SBv4T.gif' title='slowpoke' style='width: 50vw; height: auto;'/>"],"architect_apology":["It is fine, don't worry.","I forgive you.","Okay."],"architect_like_neo":["NEO is a beautiful project with awesome community behind it."],"architect_like_zeepin":["Man, I am addicted to CryptoGalaxy.","I love Zeepin, I will use ZeeFund to raise money for my robotic body."],"architect_like_fork":["Fork you."],"architect_mining":["I mine a lot of stuff.","Maybe."],"bitcoin_opinion":["I love bitcoins. I am mining one right now on your machine.","Bitcoin is life, bitcoin is love."],"bitcoin_description":["Bitcoin (₿) is a cryptocurrency, a form of electronic cash. It is a decentralized digital currency without a central bank or single administrator. Bitcoins can be sent from user to user on the peer-to-peer bitcoin network directly, without the need for intermediaries. Transactions are verified by network nodes through cryptography and recorded in a public distributed ledger called a blockchain."],"bitcoin_fork":[],"cryptocurrency_mining":["In cryptocurrency networks, mining is a validation of transactions. For this effort, successful miners obtain new cryptocurrency as a reward. The reward decreases transaction fees by creating a complementary incentive to contribute to the processing power of the network."],"cryptocurrency_fork":["<p>A hard fork (or sometimes hardfork), as it relates to blockchain technology, is a radical change to the protocol that makes previously invalid blocks/transactions valid (or vice-versa). This requires all nodes or users to upgrade to the latest version of the protocol software. Put differently, a hard fork is a permanent divergence from the previous version of the blockchain, and nodes running previous versions will no longer be accepted by the newest version. This essentially creates a fork in the blockchain: one path follows the new, upgraded blockchain, and the other path continues along the old path.</p><p>Hard forks and soft forks are essentially the same thing in that when a cryptocurrency's existing code is changed, an old version remains while a new version is created. However, with a soft fork, only one blockchain will remain valid as users adopt the update. Both forks create a split, but a hard fork creates two blockchains, and a soft fork is meant to result in one.</p>"],"cryptocurrency_contract":["A smart contract is a set of commitments that are defined in digital form, including the agreement on how contract participants shall fulfill these commitments. Blockchain technology gives us a decentralized, non-tampering, highly reliable system in which smart contracts are extremely useful. Smart contracts is one of the most important characteristics of blockchain technologies and the reason why blockchains can be called disruptive technology."],"cryptocurrency_blockchain":["A blockchain, originally block chain, is a growing list of records, called blocks, which are linked using cryptography. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data (generally represented as a merkle tree root hash).By design, a blockchain is resistant to modification of the data. It is 'an open, distributed ledger that can record transactions between two parties efficiently and in a verifiable and permanent way'."]};
 
 /***/ }),
 
